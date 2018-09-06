@@ -1,0 +1,17 @@
+1536127335545	geckodriver	INFO	geckodriver 0.19.1
+1536127335553	geckodriver	INFO	Listening on 127.0.0.1:62575
+1536127336105	mozrunner::runner	INFO	Running command: "D:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.IJZOXw2Wzo4s"
+1536127342196	Marionette	INFO	Listening on port 62582
+1536127342955	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=se&json=1&p=3&sid=1437_21105_18560_26350_20719&req=2&csor=2&pwd=s&cb=jQuery110208549590200643251_1536127343412&_=1536127343415, line 1: TypeError: jQuery110208549590200643251_1536127343412 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=sel&json=1&p=3&sid=1437_21105_18560_26350_20719&req=2&csor=3&pwd=se&cb=jQuery110208549590200643251_1536127343412&_=1536127343416, line 1: TypeError: jQuery110208549590200643251_1536127343412 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=s&json=1&p=3&sid=1437_21105_18560_26350_20719&req=2&csor=1&cb=jQuery110208549590200643251_1536127343412&_=1536127343414, line 1: TypeError: jQuery110208549590200643251_1536127343412 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=selen&json=1&p=3&sid=1437_21105_18560_26350_20719&req=2&csor=5&pwd=sele&cb=jQuery110208549590200643251_1536127343412&_=1536127343418, line 1: TypeError: jQuery110208549590200643251_1536127343412 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=sele&json=1&p=3&sid=1437_21105_18560_26350_20719&req=2&csor=4&pwd=sel&cb=jQuery110208549590200643251_1536127343412&_=1536127343417, line 1: TypeError: jQuery110208549590200643251_1536127343412 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=seleni&json=1&p=3&sid=1437_21105_18560_26350_20719&req=2&csor=6&pwd=selen&cb=jQuery110208549590200643251_1536127343412&_=1536127343419, line 1: TypeError: jQuery110208549590200643251_1536127343412 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=seleniu&json=1&p=3&sid=1437_21105_18560_26350_20719&req=2&csor=7&pwd=seleni&cb=jQuery110208549590200643251_1536127343412&_=1536127343420, line 1: TypeError: jQuery110208549590200643251_1536127343412 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=selenium&json=1&p=3&sid=1437_21105_18560_26350_20719&req=2&csor=8&pwd=seleniu&cb=jQuery110208549590200643251_1536127343412&_=1536127343421, line 1: TypeError: jQuery110208549590200643251_1JavaScript error: resource://gre/components/nsUrlClassifierListManager.js, line 287: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: resource://gre/components/nsUrlClassifierListManager.js, line 287: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+1536127390266	Marionette	INFO	Ceased listening
+rionette	INFO	Ceased listening
