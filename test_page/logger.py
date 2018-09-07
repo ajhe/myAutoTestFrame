@@ -4,7 +4,7 @@ import logging
 import os.path
 import time
 
-
+'''
 class Logger(object):
     """
     保存日志的类
@@ -45,3 +45,34 @@ class Logger(object):
 
     def getlog(self):
         return self.logger
+'''
+class TestLogger(object):
+    """
+    默写
+    """
+
+    def __init__(self, logger):
+        self.logger = logging.getLogger(logger)
+        self.logger.setLevel(logging.INFO)
+
+        root_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        log_path = root_path + '/Logs/'
+        now_time = time.strftime("%Y%m%d%H%M%S", time.localtime(time.time()))
+        log_file_path = log_path + now_time + '.log'
+        fileHandler = logging.FileHandler(log_file_path)
+        fileHandler.setLevel(logging.INFO)
+
+        formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
+        fileHandler.setFormatter(formatter)
+
+        controlHandler = logging.StreamHandler()
+        controlHandler.setLevel(logging.INFO)
+        controlHandler.setFormatter(formatter)
+
+        self.logger.addHandler(fileHandler)
+        self.logger.addHandler(controlHandler)
+
+    def getlogger(self):
+        return self.logger
+
+

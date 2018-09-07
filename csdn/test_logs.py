@@ -2,9 +2,11 @@
 
 import time
 from selenium import webdriver
-from test_page.logger import Logger
+#from test_page.logger import Logger
+from test_page.logger import TestLogger
 
-mylogger = Logger(logger='TestMyLog').getlog()
+#mylogger = Logger(logger='TestMyLog').getlog()
+mylogger = TestLogger(logger='MyTestLogger').getlogger()
 
 class TestMyLog(object):
 

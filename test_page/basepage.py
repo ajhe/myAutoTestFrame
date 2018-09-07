@@ -1,4 +1,9 @@
 # coding=utf-8
+import time
+import os
+from test_page.logger import TestLogger
+
+mylog = TestLogger(logger='BasePageLogger').getlogger()
 
 class BasePage(object):
     """
@@ -43,3 +48,20 @@ class BasePage(object):
         :return:
         """
         self.driver.quit()
+
+    def test_screenshot(self):
+        """
+        截图
+        :return:
+        """
+        root_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        screenshots_path = root_path + '/Screenshots/'
+        screen_time = time.strftime("%Y%m%d%H%M%S", time.localtime(time.time()))
+        screenshot_file_path = screenshots_path + screen_time + '.png'
+        try:
+            self.driver.get_screenshot_as_file(screenshot_file_path)
+            mylog.info(u"开始截图并保存至Screenshots文件夹")
+        except Exception as e:
+            mylog.info(u"截图失败，出现异常：", format(e))
+
+

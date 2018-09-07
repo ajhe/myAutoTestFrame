@@ -1,0 +1,4 @@
+2018-09-07 22:24:53,213 - MyTestLogger - INFO - 打开浏览器
+2018-09-07 22:24:56,072 - MyTestLogger - INFO - 打开百度首页
+2018-09-07 22:24:58,072 - MyTestLogger - INFO - 暂停2秒
+2018-09-07 22:24:59,753 - MyTestLogger - INFO - 关闭并退出浏览器

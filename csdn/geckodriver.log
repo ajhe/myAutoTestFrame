@@ -1,8 +1,10 @@
-1536145063705	geckodriver	INFO	geckodriver 0.19.1
-1536145063713	geckodriver	INFO	Listening on 127.0.0.1:62001
-1536145064253	mozrunner::runner	INFO	Running command: "D:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.d28Sfa1gYDBb"
-1536145070738	Marionette	INFO	Listening on port 62008
-1536145071161	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: resource://gre/components/nsUrlClassifierListManager.js, line 287: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
-JavaScript error: resource://gre/components/nsUrlClassifierListManager.js, line 287: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+1536331493558	geckodriver	INFO	geckodriver 0.19.1
+1536331493574	geckodriver	INFO	Listening on 127.0.0.1:51339
+1536331496560	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Mr\\AppData\\Local\\Temp\\rust_mozprofile.APniCfgoFk8I"
+1536331511953	Marionette	INFO	Listening on port 51348
+1536331513131	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.qq.com/, line 937: SyntaxError: 09 is not a legal ECMA-262 octal constant
+JavaScript warning: http://mat1.gtimg.com/www/asset/seajs/sea.js, line 25: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1536331546904	Marionette	INFO	New connections will no longer be accepted
+LIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
 1536145083307	Marionette	INFO	Ceased listening
